@@ -1,0 +1,10 @@
+{
+  "cmd": "query",
+  "kb": "Bird(opus).\nPenguin(tweety).\nWings(tweety).\nBird(X) <- Penguin(X).\nFly(X) -< Bird(X).\n~Fly(X) -< Penguin(X).\n",
+  "query": "Fly(tweety)",
+  "compcriterion": "genspec",
+  "answer": false,
+  "reply": "query",
+  "email": "tweetyweb@mthimm.de"
+}
+
